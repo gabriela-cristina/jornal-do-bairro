@@ -1,0 +1,195 @@
+body{
+    margin: 0 ;
+    background-color:rgb(183, 194, 226)  ;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: arial;
+    font-size: 20px ;
+}
+
+p{
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+header{
+    background-color: rgb(120, 144, 211);
+}
+
+.cabeçalho{
+    text-align: center;
+    background-color:rgb(120, 144, 211) ;
+    color: white;
+    margin: 0;
+    border: solid rgb(120, 144, 211) 8px;
+}
+
+nav ul{ 
+    box-sizing: border-box ;
+    padding: 10px;
+    list-style-type: none;
+    width: 100%;
+    display: flex ;
+
+    flex-direction: row;
+    justify-content: space-around ;
+    border: solid rgb(120, 144, 211) 8px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.conteudo{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+#imagens{ 
+    height: 200px;
+    width: 300px;
+    border: solid 8px rgb(120, 144, 211) ;
+    
+}
+
+#noticia{
+    background-color: rgb(146, 170, 211);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+#rodape{  text-align: center;
+    background-color:rgb(120, 144, 211) ;
+    color: white;
+    margin: 0;
+    border: solid rgb(120, 144, 211) 15px;
+    font-size: 20px;
+}
+
+#video{
+    border: solid 8px rgb(120, 144, 211) ;
+    padding-bottom: 2px;
+    margin:0 auto;
+    display: block;
+}
+
+#vespasiano{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo{ 
+    animation-name: pisca-pisca;
+    animation-timing-function: linear ;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: unset;
+    animation-play-state: running;
+}
+
+#titulo:hover{
+    animation-name: pisca-pisca;
+    animation-timing-function: linear ;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+
+@keyframes pisca-pisca{
+    0%{
+        color: white ;
+
+    }
+    10%{
+        color: rgb(255, 21, 0);
+        font-size: 25px;
+    }
+
+    20%{
+      color: rgb(255, 217, 0);
+      font-size: 30px;
+    }
+
+    30%{
+      color: rgb(72, 202, 60);
+      font-size: 35px;
+    }
+
+    40%{ color: rgb(1, 141, 255);
+        font-size: 40px;
+    }
+
+    50%{ color: rgb(0, 4, 251);
+        font-size: 45px;
+
+    }
+    60%{
+        color: white;
+        font-size: 40px;
+    }
+
+    70%{
+        color:rgb(255, 21, 0) ;
+        font-size: 35px;    
+    }
+
+    80%{ color: rgb(255, 217, 0);
+        font-size: 30px;
+    }
+
+    90%{ color: rgb(72, 202, 60);
+        font-size: 25px;
+    }
+   
+    100%{ color: rgb(1, 141, 255);
+     }
+
+}
+
+#clique:hover{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(92, 92, 92);
+    background-color:rgba(131, 118, 206, 0.253);
+    border:rgba(131, 118, 206, 0.253) solid 9px;
+    transition:color 500ms ease;
+    animation:ease-in alternate infinite;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a { text-decoration: none;
+    font-size: 20px;
+}
+    
+    
+
+
